@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    --primary-color: #8700cb;
+    --secondary-color: #fafafa;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 16px;
+}
+
+img {
+    height: 64px;
+    width: 64px;
+    margin: 16px auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input {
+    line-height: 1.6;
+    padding: 0.5rem; /* 8px já que 1rem = 16px */
+    border-radius: 8px;
+    border: 1px solid var(--primary-color);
+    margin-bottom: 16px;
+}
+
+button {
+    padding: 0.5rem;
+    border-radius: 8px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    cursor: pointer;
+    height: 40px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 56px;
+    padding: 0.5rem;
+    background-color: var(--primary-color);
+}
+
+header > img {
+    height: 32px;
+    width: 32px;
+    margin: 0 16px;
+}
+
+header > h1 {
+    color: var(--secondary-color);
+    margin: 0;
+}
+
+@media (min-width: 768px) {
+    main {
+        margin: 64px auto;
+        max-width: 400px;
+        border: 1px solid var(--primary-color);
+    }
+
+    img {
+        height: 128px;
+        width: 128px;
+    }
+}
