@@ -1,18 +1,18 @@
 import Sidebar from "../components/Sidebar";
 import Topbar from "../components/Topbar";
 
-function Boletos() {
+function Faltas(){
     return (
+
         <>
             <Sidebar />
             <main>
                 <Topbar />
-                <h2>Boletos</h2>
+                <h2>Minhas Faltas</h2>
                 <section></section>
             </main>
         </>
-    )
+    );
+};
 
-}
-
-export default Boletos;
+export default Faltas;

@@ -1,18 +1,16 @@
 import Sidebar from "../components/Sidebar";
 import Topbar from "../components/Topbar";
 
-function Boletos() {
+function Notas(){
     return (
         <>
             <Sidebar />
             <main>
                 <Topbar />
-                <h2>Boletos</h2>
-                <section></section>
+                <h2>Minhas Notas</h2>
             </main>
         </>
     )
-
 }
 
-export default Boletos;
+export default Notas;

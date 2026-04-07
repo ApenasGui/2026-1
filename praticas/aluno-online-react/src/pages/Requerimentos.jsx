@@ -1,19 +1,17 @@
 import Sidebar from "../components/Sidebar";
 import Topbar from "../components/Topbar";
-import Main from "../components/Main";
 
 function Requerimentos(){
     return (
         <>
             <Sidebar />
-            <Main
-                titulo="Requerimentos"
-                subtitulo="Gerencie seus requerimentos acadêmicos"
-            >
+            <main>
+                <Topbar />
+                <h2>Requerimentos</h2>
                 <section>Documentos Pendentes</section>
                 <section>Requerimentos em Andamento</section>
                 <section>Requerimentos Finalizados</section>
-            </Main>
+            </main>
         </>
     );
 };
