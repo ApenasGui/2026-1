@@ -1,6 +1,10 @@
+import { useParams } from "react-router";
+
 function Perfil() {
-    return <> 
-    <h1>Perfil do usuário</h1>
+const { id } = useParams();
+
+return <> 
+    <h1>Perfil do usuário {id}</h1>
     </>;
 }
 
