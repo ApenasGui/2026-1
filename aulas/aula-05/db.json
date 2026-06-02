@@ -1,6 +1,13 @@
 {
-    "produtos": [],
-    "fornecedores": [],
-    "pedidos": [],
-    "usuarios": []
+  "produtos": [
+    {
+      "nome": "Maçã",
+      "preco": 10.0,
+      "unidade": "kg"
+    }
+  ],
+  "fornecedores": [],
+  "pedidos": [],
+  "usuarios": [],
+  "$schema": ""
 }
