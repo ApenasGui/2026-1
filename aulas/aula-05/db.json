@@ -2,12 +2,31 @@
   "produtos": [
     {
       "nome": "Maçã",
-      "preco": 10.0,
-      "unidade": "kg"
+      "preco": "10",
+      "unidade": "kg",
+      "id": "11EWtRTN9qc"
+    },
+    {
+      "nome": "Pamonha",
+      "preco": "12",
+      "unidade": "unidade",
+      "id": "c68AsNn2CzA"
+    },
+    {
+      "nome": "Pamonha",
+      "preco": "12",
+      "unidade": "unidade",
+      "id": "AHbq2Le-Qpg"
+    },
+    {
+      "nome": "Mamão Papaia",
+      "preco": "19",
+      "unidade": "UN",
+      "id": "TDUBCYy04mQ"
     }
   ],
   "fornecedores": [],
   "pedidos": [],
   "usuarios": [],
-  "$schema": ""
+  "$schema": "./node_modules/json-server/schema.json"
 }
